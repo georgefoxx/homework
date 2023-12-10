@@ -1,37 +1,101 @@
-body{ background-color: lightgray;
-display: flex;
-align-items: center;
-justify-content: center;
-height: 100vh;
+body {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-.card{
-    width: 320px;
-    border-radius: 10px;
-    padding-top: 16px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 40px;
-    text-align: center;
-    background-color:#FFFFFF;
-}
-.incard{
-    background: rgba(54, 133, 255, 1);
-height: 288px;
-width: 100%px;
-border-radius: 10px;
-display: flex;
-align-items: center;
-justify-content: center;}
+.learn{width:25rem ;
+    height: 12rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    margin-right: 3rem;
+    font-size:large;
+    line-height: 25px;
+    
+    
 
-.incard > img{ width: 160px;
-height: 160px;}
-
-
-.card > h1{color: #1F314F;
-font-size: 22px;}
-.card > p{color: #7D889E;
-font-size: 15px;
 }
 
+.cardout{display: flex;
+ flex-direction: column;
+ gap: 2rem;
+margin-right: 5rem;
+}
+.divmtav {
+  width: 100rem;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(242, 107, 107);
+  border: 1px solid black;
+}
+.cardoni {
+  border-radius: 5px;
+  width: 38rem;
+  height: 30rem;
+  background-color: rgb(255, 255, 255);
+  border:none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
 
+.shesavsebi {
+  display: flex;
+  width: 27rem;
+  height: 3rem;
+  border: 1px solid gray;
+  border-radius: 3px;
+  align-items: center;
+  padding-left: 2rem;
+  font-weight: 700;
+  color: gray;
+}
+.qvemobutton {
+  display: flex;
+  width: 27rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #38cc8b;
+}
+.pdabla {
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  width: 27rem;
+}
+.pbold {
+  font-weight: 800;
+  color: red;
+}
+
+.topbutt {
+  background-color: #5E54A4;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  width: 38rem;
+  height: 4rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 5px;
+  }
+
+.h4bolder{font: weight 1000;
+   
+
+}
+.h4ti{font-weight: 200;}
+.pgray{color: gray;}
